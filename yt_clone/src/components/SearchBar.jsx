@@ -21,8 +21,11 @@ const SearchBar = () => {
             placeholder="Search..."
             value=""
             onChange={() => {}}
+            sx={{
+                justifyContent: "center"
+            }}
         />
-        <IconButton type="submit" sx={{ p:10, color: 'red'}}>
+        <IconButton type="submit" sx={{ color: 'red'}}>
             <Search />
         </IconButton>
     </Paper>
